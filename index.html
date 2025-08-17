@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOHAN R - Cybersecurity Expert & Full Stack Developer Portfolio">
+    <title>MOHAN R | AI Developer & Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo-container">
+                <h1>MOHAN R</h1>
+                <div class="tagline">AI | Cybersecurity | Cloud | Full Stack</div>
+            </div>
+            <nav id="nav">
+                <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="#about"><i class="fas fa-user"></i> About</a>
+                <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+                <a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="resume/mohan_resume.pdf" target="_blank" class="resume-btn"><i class="fas fa-file-alt"></i> Resume</a>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content animate__animated animate__fadeIn">
+            <div class="profile-container">
+                <img src="images/profile.jpg" alt="Profile Picture" class="profile-img"/>
+                <div class="tech-icons">
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+                    <i class="fab fa-java" title="Java"></i>
+                    <i class="fab fa-react" title="React"></i>
+                    <i class="fab fa-aws" title="AWS"></i>
+                    <i class="fas fa-shield-alt" title="Cybersecurity"></i>
+                </div>
+            </div>
+            <h2 class="animate__animated animate__fadeInUp">Hi! I'm <span class="highlight">MOHAN R</span></h2>
+            <h3 class="typing-text animate__animated animate__fadeInUp"></h3>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                I'm a Computer Science student specializing in Cybersecurity, Full Stack Development, AI and Cloud Computing. 
+                Passionate about securing digital systems while building innovative, user-friendly applications.
+            </p>
+            <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
+                <a class="button" href="resume/mohan_resume.pdf" target="_blank">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                <a class="button secondary" href="#contact">
+                    <i class="fas fa-paper-plane"></i> Contact Me
+                </a>
+            </div>
+        </div>
+        <div class="scroll-down animate__animated animate__bounce animate__infinite">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text animate__animated animate__fadeInLeft">
+                <div class="detail-card">
+                <p>
+                  I am Mohan R, a Computer Science undergraduate specializing in AI Development with strong expertise 
+                  in Full Stack and Web Development. My passion lies in creating intelligent systems while building
+                   efficient, user-centric applications.
+                </p>
+                <p>
+                    Academically, I've gained technical expertise in machine learning, data science, neural networks,
+                     and AI-driven software development. I have hands on experience with model training, data preprocessing,
+                      and AI frameworks like TensorFlow, PyTorch, and Scikit-learn.
+                </p>
+                <p>
+                    In development, I've built dynamic web applications using modern technologies like React, Node.js, and MongoDB. 
+                    My proficiency in Python, C, and Java supports both my development and AI skills, enabling me to automate tasks, 
+                    analyze data, and build intelligent, scalable systems.
+                </p>
+                <div class="skills-chart">
+                    <div class="skill" data-percent="80">
+                        <span class="skill-name">AI</span>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-percent="85">
+                        <span class="skill-name">Cloud Computing</span>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-percent="90">
+                        <span class="skill-name">Full Stack Dev</span>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-percent="90">
+                        <span class="skill-name">JAVA and C</span>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-percent="95">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="about-details animate__animated animate__fadeInRight">
+                <div class="detail-card">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <ul>
+                        <li>
+                            <strong>B.E. Computer Science Engineering </br></strong>
+                            <span>GRT Institute of Engineering and Technology</br></span>
+                            <span>2023 - 2027</br></span>
+                        </li>
+                        <li>
+                            <strong>12th</br></strong>
+                            <span>Thiruvallur District Government Model School</br></span>
+                            <span>2023</br></span>
+                            <span>marks: 506 / 600</span>
+                        </li>
+                    </ul>
+                    <h3><i class="fas fa-code"></i>Skills & Tools</h3>
+                      <ul>
+                        <li><strong>cloud computing:</strong>IaaS, PaaS, SaaS</li>
+                        <li><strong>Frontend:</strong>HTML, CSS, JavaScript</li>
+                        <li><strong>Database:</strong>MySQL, SQL</li>
+                        <li><strong>Language:</strong>python, java, programming in C, HTML</li>
+                        <li><strong>Tools & Platforms:</strong>GitHub, VS Code, Canva, MS Excel, MS Word</li>
+                      </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-code"></i> Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4>AI Development</h4>
+                            <ul>
+                                <li>Machine Learning</li>
+                                <li>Deep Learning</li>
+                                <li>NLP</li>
+                                <li>Neural Networks</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Development</h4>
+                            <ul>
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>React, Node.js</li>
+                                <li>Python, Java, C</li>
+                                <li>MongoDB, MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Cloud Computing</h4>
+                            <ul>
+                                <li>AWS Fundamentals</li>
+                                <li>IaaS, PaaS, SaaS</li>
+                                <li>Virtualization</li>
+                                <li>Scalable Architecture</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mohan-r-668812309" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mohanramesh2005" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:2005mohanr@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Here are some of my recent projects showcasing my skills</p>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/soft.png" alt="Soft Developer Web Page">
+                    <div class="project-links">
+                        <a href="vedio/softdev.mp4" class="project-link"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/mohanramesh2005/soft-developers" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Soft Developer Web Page</h3>
+                    <p>A professional website for a software development company showcasing services and expertise.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="vedio/softdev.mp4" target="_blank" class="project-details">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/block.jpg" alt="Blockchain-based-web-application">
+                    <div class="project-links">
+                        <a href="vedio/blockchain.mp4" class="project-link"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/mohanramesh2005/Blockchain-based-web-application" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Blockchain-based-web-application</h3>
+                    <p>It is based on Blockchain-based-web-application and Login with Wallet Address or Username, Dashboard Overview: 
+                        *Block Height & Transaction Count, *Wallet Balance Monitoring (in ETH), *Live Network Node Tracking
+
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="vedio/blockchain.mp4" target="_blank" class="project-details">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+             <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/rain.jpg" alt="rainfall">
+                    <div class="project-links">
+                        <a href="vedio/rainfall.mp4" class="project-link"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/mohanramesh2005/Real-time-Weather-Forecasting" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Real-time Weather Forecasting System with Speech & AI Integration</h3>
+                    <p>This project reflects my interest in merging Al interaction, data visualization, and API-driven development 
+                       into impactful software solutions.</p>
+                    <div class="project-tech">
+                        <span>Python(Tkinter, Matplotlib, PIL)</span>
+                        <span>OpenWeatherMap API</span>
+                        <span>SpeechRecognition</span>
+                    </div>
+                    <a href="vedio/rainfall.mp4" target="_blank" class="project-details">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/pro2.png" alt="Voice Assistant">
+                    <img src="images/pro3.png" alt="Voice Assistant">
+                    <div class="project-links">
+                        <a href="https://github.com/mohanramesh2005/voice-assistant" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Voice Assistant</h3>
+                    <p>An AI-powered voice assistant that responds to voice commands and performs various tasks.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>NLP</span>
+                    </div>
+                    <a href="resume/voice assistant mini project.pdf" target="_blank" class="project-details">
+                        View Report <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/pro4.png" alt="Disease Prediction">
+                     <img src="images/pro5.png" alt="Disease Prediction">
+                    <div class="project-links">
+                        <a href="https://github.com/mohanramesh2005/-ENSEMBLE-MACHINE-LEARNING-BASED-DISEASE-PREDICTION-SYSTEM" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Disease Prediction System</h3>
+                    <p>AI/ML based system for predicting diseases based on symptoms and medical data.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Pandas</span>
+                        <span>Naive bayes</span>
+                        <span>SVM</span>
+                        <span>RandomForest</span>
+                    </div>
+                    <a href="resume/AIML.pdf" target="_blank" class="project-details">
+                        View Report <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/pro6.png" alt="Web Security Testing">
+                    <div class="project-links">
+                        <a href="https://github.com/mohanramesh2005/FUTURE_CS_01" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Web Security Testing</h3>
+                    <p>Comprehensive security testing framework for web applications.</p>
+                    <div class="project-tech">
+                        <span>Security</span>
+                        <span>SQL Map</span>
+                        <span>Penetration Testing</span>
+                    </div>
+                    <a href="resume/web testing Report.pdf" target="_blank" class="project-details">
+                        View Report <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/pro7.png" alt="Social Engineering Attack">
+                    <div class="project-links">
+                        <a href="https://github.com/mohanramesh2005/FUTURE_CS_02" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Social Engineering Attack Simulation</h3>
+                    <p>Research and simulation of social engineering attack vectors.</p>
+                    <div class="project-tech">
+                        <span>Cybersecurity</span>
+                        <span>Social Engineering</span>
+                        <span>Security Awareness</span>
+                    </div>
+                    <a href="resume/Social_Engineering_Attack.pdf" target="_blank" class="project-details">
+                        View Report <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card animate_animated">
+                <div class="project-image">
+                    <img src="images/wifi.png" alt="WiFi Security Testing">
+                    <div class="project-links">
+                        <a href="https://github.com/mohanramesh2005/FUTURE_CS_03" class="project-github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>WiFi Security Testing</h3>
+                    <p>Framework for testing and securing WiFi networks.</p>
+                    <div class="project-tech">
+                        <span>Network Security</span>
+                        <span>Packet Analysis</span>
+                        <span>Wireless Security</span>
+                    </div>
+                    <a href="resume/wifi.pdf" target="_blank" class="project-details">
+                        View Report <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="view-more">
+            <a href="https://github.com/mohanramesh2005" class="button">View All Projects in GitHub <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="certificate" id="certificates">
+        <div class="section-header">
+            <h2>Certifications & Achievements</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">My professional certifications and academic achievements</p>
+        </div>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/cloud.jpg" alt="Cloud Computing Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Cloud Computing</h3>
+                    <p class="certificate-issuer">NPTEL</p>
+                    <p>Comprehensive cloud service models (IaaS, PaaS, SaaS), virtualization, orchestration, and resource provisioning.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">NPTEL</span>
+                         <a href="images/cloud.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+             <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/ai.jpg" alt="AI">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Introduction to AI</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>AI Developer specializing in building, training, and deploying intelligent machine learning models.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">INFOSYS SPRINGBOARD</span>
+                         <a href="images/ai.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+              <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/deep.jpg" alt="AI">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Introduction to Deep Learning</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Deep Learning developer skilled in designing, training, and deploying advanced neural network models.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">INFOSYS SPRINGBOARD</span>
+                         <a href="images/deep.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+              <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/nlp.jpg" alt="NLP">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Introduction to NLP</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>NLP developer specializing in building and deploying language models for text understanding and generation.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">INFOSYS SPRINGBOARD</span>
+                         <a href="images/nlp.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/ds.jpg" alt="NLP">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Introduction to Data Science</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Data Scientist skilled in extracting insights and building predictive models from complex datasets.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">INFOSYS SPRINGBOARD</span>
+                         <a href="images/ds.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/cybersecurity.jpg" alt="Cybersecurity Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Cybersecurity Analyst</h3>
+                    <p class="certificate-issuer">IAM Technologies</p>
+                    <p>Advanced training in cybersecurity threats, vulnerabilities, and defense mechanisms.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">FORAGE</span>
+                         <a href="images/cybersecurity.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/python.jpg" alt="Python Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Python Programming</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Comprehensive Python programming including data structures, algorithms, and application development.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">UDEMY</span>
+                         <a href="images/python.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/excel.jpg" alt="Excel Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Advanced Excel</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Data analysis, visualization, and advanced functions in Microsoft Excel.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">UDEMY</span>
+                         <a href="images/excel.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/entrepreneur.jpg" alt="Entrepreneurship Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Entrepreneurship</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Fundamentals of entrepreneurship, business planning, and startup management.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">UDEMY</span>
+                        <a href="images/entrepreneur.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card animate_animated">
+                <div class="certificate-image">
+                    <img src="images/project.jpg" alt="Project Management Certification">
+                    <div class="certificate-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Project Management</h3>
+                    <p class="certificate-issuer">Online Course</p>
+                    <p>Project planning, execution, monitoring, and risk management methodologies.</p>
+                    <div class="certificate-footer">
+                        <span class="certificate-date">UDEMY</span>
+                       <a href="images/project.jpg" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="achievements-section">
+            <h3><i class="fas fa-trophy"></i> Achievements</h3>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4>College Symposiums</h4>
+                    <p>Actively participated and won prizes in multiple college technical symposiums.</p>
+                     <div class="achievement-images">
+                        <img src="images/s1.jpg" alt="certificate">
+                        <img src="images/s22.jpg" alt="certificate">
+                        <img src="images/g1.jpg" alt="certificate">
+                        <img src="images/g2.jpg" alt="certificate">
+                    </div>
+                     <a href="resume/symposium.pdf" target="_blank" class="project-details">
+                        View All Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h4>Internship Completion</h4>
+                    <p>Successfully completed one-month online and offline internships.</p>
+                    <div class="achievement-images">
+                        <img src="images/intern.jpg" alt="Internship Certificate">
+                        <img src="images/internship.jpg" alt="Letter of Recommendation">
+                    </div>
+                     <a href="resume/internship.pdf" target="_blank" class="project-details">
+                        View Certificate <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>Hackathon Participation</h4>
+                    <p>Participated in regional hackathons showcasing problem-solving skills.</p>
+                    <p>I am participated Smart Indian Hackathon(2024) and I am the team lead of my team SIH 2024 </p>
+                    <div class="achievement-images">
+                        <img src="images/sih1.jpg" alt="certificate">
+                        <img src="images/sih2.jpg" alt="certificate">
+                    </div>
+                     <a href="resume/sih2024.pptx" target="_blank" class="project-details">
+                        View pptx <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Feel free to contact me for collaborations or opportunities</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info animate__animated animate__fadeInLeft">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Email</h4>
+                        <a href="mailto:2005mohanr@gmail.com">2005mohanr@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>LinkedIn</h4>
+                        <a href="https://www.linkedin.com/in/mohan-r-668812309" target="_blank">linkedin.com/in/mohan-r</a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/mohanramesh2005" target="_blank">github.com/mohanramesh2005</a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Location</h4>
+                        <p>Tamil Nadu, India</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form animate__animated animate__fadeInRight">
+                <form id="contactForm" action="https://formspree.io/2005mohanr@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>MOHAN R</h3>
+                <p>AI Developer & Full Stack Developer</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mohan-r-668812309" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/mohanramesh2005" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:2005mohanr@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 MOHAN R. All Rights Reserved.</p>
+            <p>Designed & Developed with <i class="fas fa-heart"></i> by MOHAN R</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
